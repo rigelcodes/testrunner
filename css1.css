@@ -1,0 +1,130 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: "Garamond", Times, serif;
+    font-size: 18px;
+}
+
+.title{
+    text-align: center;
+}
+
+img{
+    width: 100%; 
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-left: 20%;
+}
+
+.profile{
+    border-radius: 25px;
+}
+
+.projectImage{
+    width:100%;
+    max-width: 600px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-left: 10%;
+}
+
+.imgwrapper{
+    gap:55px;
+    padding: 0 15px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 45%;
+    margin-left: 5%;
+}
+
+.codeImage{
+    width: 100%; 
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-left: 18%;
+}
+
+figure{
+    margin-left: 33%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.wrapper{
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+.intro{
+    flex: 1;
+}
+
+.experience{
+    box-sizing: border-box;
+    width: 45%;
+    margin-left: 10%;
+}
+
+.awards{
+    box-sizing: border-box;
+    width: 45%;
+    margin-left: 10%;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    grid-auto-rows: 1fr;
+    align-items: stretch;
+}
+
+.container{
+    display: flex;
+}
+
+.box{
+    padding: 15px;
+    background-color: rgb(246, 248, 248);
+    margin-bottom: 30px;
+    margin-top:30px;
+    max-width: 400px;
+}
+
+.innerAwardBox{
+   background-color: rgb(246, 248, 248);
+   height: 100%;
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+
+h3{
+    font-family: "Garamond", Times, serif;
+}
+
+h4{
+    font-size: 20px;
+    font-family: "Garamond", Times, serif;
+}
+
+h2{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    max-width:400px;
+    font-family: "Garamond", Times, serif;
+}
+p, li, figcaption{
+    font-size: 20px;
+}
+
